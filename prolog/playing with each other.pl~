@@ -1,0 +1,8 @@
+play(asif,tennis).
+play(umer,football).
+play(fahad,football).
+play(kashif,hockey).
+
+play(tariq,Sport):- play(asif,Sport).
+play(person,cricket):- play(person,sport).
+
